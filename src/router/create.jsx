@@ -3,7 +3,7 @@ import { createBrowserRouter } from 'react-router-dom'
 const createNode =
 	({ element: Element, children, ...route }) => ({
 		element: <Element />,
-		children: children?.map(createRoute),
+		children: children?.map(createNode),
 		...route
 	})
 
