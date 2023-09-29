@@ -1,6 +1,6 @@
 import { createBrowserRouter } from 'react-router-dom'
 
-const createRoute =
+const createNode =
 	({ element: Element, children, ...route }) => ({
 		element: <Element />,
 		children: children?.map(createRoute),
@@ -8,5 +8,5 @@ const createRoute =
 	})
 
 export default (routes) => createBrowserRouter(
-	routes.map(createRoute)
+	routes.map(createNode)
 )
