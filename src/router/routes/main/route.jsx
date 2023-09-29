@@ -1,10 +1,4 @@
-import { Home } from './elements'
-import { Outlet } from 'react-router-dom'
-
-const Layout = () =>
-	<div>
-		<Outlet />
-	</div>
+import { Layout, Home, About } from './elements'
 
 export default {
 	path: '/',
