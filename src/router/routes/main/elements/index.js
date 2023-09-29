@@ -1,5 +1,1 @@
-import { Home } from './elements'
-
-export {
-	Home
-}
+export * from './elements'
