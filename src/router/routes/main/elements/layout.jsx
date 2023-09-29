@@ -2,5 +2,8 @@ import { Outlet } from 'react-router-dom'
 
 export default () =>
 	<div>
-		<Outlet />
+		<div>Main layout</div>
+		<div>
+			<Outlet />
+		</div>
 	</div>
