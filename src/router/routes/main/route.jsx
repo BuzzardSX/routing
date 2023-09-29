@@ -6,8 +6,6 @@ const Layout = () =>
 		<Outlet />
 	</div>
 
-const About = () => <div>About page</div>
-
 export default {
 	path: '/',
 	element: Layout,
