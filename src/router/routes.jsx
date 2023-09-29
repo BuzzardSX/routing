@@ -4,17 +4,17 @@ const About = () => <div>About page</div>
 
 const NotFound = () => <div>Page not found</div>
 
-export default createBrowserRouter([
+export default [
 	{
 		path: '/',
-		element: <Home />
+		element: Home
 	},
 	{
 		path: '/about',
-		element: <About />
+		element: About
 	},
 	{
 		path: '*',
-		element: <NotFound />
+		element: NotFound
 	}
-])
+]
